@@ -9,5 +9,6 @@ def line(array)
     array.each do |name|
       output = output + "#{array.index(name)}. #{name} "
     end
+    puts output
   end
 end
