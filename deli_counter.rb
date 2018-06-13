@@ -5,7 +5,7 @@ def line(array)
   if array.size == 0
     puts "The line is currently empty."
   else
-    output = "The line is curretnly:"
+    output = "The line is currently:"
     array.each do |name|
       output = output + " #{array.index(name)}. #{name}"
     end
