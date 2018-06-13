@@ -12,3 +12,7 @@ def line(array)
     puts output
   end
 end
+
+def take_a_number(array)
+  
+end
