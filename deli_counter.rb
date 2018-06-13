@@ -7,7 +7,7 @@ def line(array)
   else
     output = "The line is curretnly: "
     array.each do |name|
-      output = output + "#{array.indexOf(name)}. #{name} "
+      output = output + "#{array.index(name)}. #{name} "
     end
   end
 end
